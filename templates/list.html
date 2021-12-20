@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    li {
+      font-size: large;
+      font-family: 'Times New Roman';
+    }
+  </style>
+</head>
+<body>
+    <h1>Events in {{name}} {{city_or_state}}</h1>
+    {% if city_or_state == 'state' %}
+      <h2>Pie charts:</h2>
+      <ol>
+          <li><a href='/plot/{{city_or_state}}/{{name}}/pieplot_event_categories'>Pieplot of event categories</a></li>
+          <li><a href='/plot/{{city_or_state}}/{{name}}/pieplot_interest'>Pieplot of event interest by percentage</a></li>
+      </ol>
+
+      <h2>Bar charts:</h2>
+      <ol>
+        <li><a href='/plot/{{city_or_state}}/{{name}}/barplot_avgrating_each_category'>Barplot of average rating by category</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{name}}/barplot_avgparticipants_each_category'>Barplot of average number of participants by category</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{name}}/barplot_toprated_events'>Barplot of top rated events</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{name}}/barplot_mostattended_event'>Barplot for the events with the most number of participants</a></li>
+      </ol>
+    
+    {% else %}
+      <h2>Pie charts:</h2>
+      <ol>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/pieplot_event_categories'>Pieplot of event categories</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/pieplot_interest'>Pieplot of event interest by percentage</a></li>
+    </ol>
+
+      <h2>Bar charts:</h2>
+      <ol>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/barplot_avgrating_each_category'>Barplot of average rating by category</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/barplot_avgparticipants_each_category'>Barplot of average number of participants by category</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/barplot_toprated_events'>Barplot of top rated events</a></li>
+        <li><a href='/plot/{{city_or_state}}/{{id_pos}}_{{name}}/barplot_mostattended_event'>Barplot for the events with the most number of participants</a></li>
+      </ol> 
+    
+    {% endif %}
+
+</body>
+</html>
