@@ -6,7 +6,7 @@ This project aims to create a simple web application that returns information ab
 
 ## Data Sources
 1. The web from Wikipedia, which is the data source for the table "Cities" in the database. (https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population). 
-2. Yelp Fusion, which is the data source for the table "Restaurants" in the database. (https://www.yelp.com/developers/documentation/v3/featured_event)
+2. Yelp Fusion, which is the data source for the table "Events" in the database. (https://www.yelp.com/developers/documentation/v3/featured_event)
 
 ## Data Processing
 1. Create the table named “Cities” in the database
