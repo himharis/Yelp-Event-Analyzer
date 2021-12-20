@@ -64,5 +64,5 @@ $ python webapp.py
 ### your terminal will look like this
 ![alt text](https://github.com/himharis/final_project/blob/main/pictures/Screen%20Shot%202021-12-19%20at%205.54.59%20PM.png)
 
-### home dashboard
+### THis is your home dashboard
 ![alt text](https://github.com/himharis/final_project/blob/main/pictures/Screen%20Shot%202021-12-19%20at%205.55.16%20PM.png)
