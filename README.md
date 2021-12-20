@@ -61,3 +61,8 @@ $ python webapp.py
 ### Step 4: Open "http://127.0.0.1:5000/ " in a browser
 
 ## Results
+### your terminal will look like this
+![alt text](https://github.com/himharis/final_project/blob/main/pictures/Screen%20Shot%202021-12-19%20at%205.54.59%20PM.png)
+
+### home dashboard
+![alt text](https://github.com/himharis/final_project/blob/main/pictures/Screen%20Shot%202021-12-19%20at%205.55.16%20PM.png)
